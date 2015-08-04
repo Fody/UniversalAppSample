@@ -15,17 +15,19 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Text="Given Names:" HorizontalAlignment="Right" />
-        <TextBlock Text="Family Name:" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" />
-        <StackPanel Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right"  >
-            <TextBlock Text="Events:" />
-            <TextBlock Text="(newest on top)" />
-        </StackPanel>
-        <TextBox Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Width="200"  Text="{Binding Path=GivenNames, UpdateSourceTrigger=PropertyChanged}"/>
-        <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Width="200" Text="{Binding Path=FamilyName, UpdateSourceTrigger=PropertyChanged}" />
-        <TextBlock Grid.Column="0" Grid.Row="2" Text="{Binding Path=FullName}" />
-        <TextBox Grid.Column="1" IsReadOnly="True" Grid.Row="2" Name="eventsTextBox"  />
+        <TextBox Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Width="200"  Text="{Binding Path=GivenNames, Mode=TwoWay}"/>
+        
+        <TextBlock Text="Family Name:" Grid.Row="1" Grid.Column="0" />
+        <TextBox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" Width="200" Text="{Binding Path=FamilyName, Mode=TwoWay}" />
+        
+        <TextBlock Text="Fulle Name:" Grid.Row="2" Grid.Column="0" />
+        <TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding Path=FullName}" />
+        
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Events:"  />
+        <TextBlock Grid.Column="1" Grid.Row="3" Name="eventLog"  />
     </Grid>
 </Page>

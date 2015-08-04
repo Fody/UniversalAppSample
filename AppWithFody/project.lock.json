@@ -3,6 +3,12 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
+      "Fielder.Fody/1.0.7": {
+        "dependencies": {
+          "Fody": "(, )"
+        }
+      },
+      "Fody/1.29.1-beta3": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -199,6 +205,17 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/1.50.2-beta2": {
+        "dependencies": {
+          "Fody": "(, )"
+        },
+        "compile": {
+          "Lib/dotnet/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "Lib/dotnet/PropertyChanged.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -1538,6 +1555,12 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "Fielder.Fody/1.0.7": {
+        "dependencies": {
+          "Fody": "(, )"
+        }
+      },
+      "Fody/1.29.1-beta3": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -1777,6 +1800,17 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/1.50.2-beta2": {
+        "dependencies": {
+          "Fody": "(, )"
+        },
+        "compile": {
+          "Lib/dotnet/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "Lib/dotnet/PropertyChanged.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -3163,6 +3197,12 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "Fielder.Fody/1.0.7": {
+        "dependencies": {
+          "Fody": "(, )"
+        }
+      },
+      "Fody/1.29.1-beta3": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -3388,6 +3428,17 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/1.50.2-beta2": {
+        "dependencies": {
+          "Fody": "(, )"
+        },
+        "compile": {
+          "Lib/dotnet/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "Lib/dotnet/PropertyChanged.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -4760,6 +4811,12 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "Fielder.Fody/1.0.7": {
+        "dependencies": {
+          "Fody": "(, )"
+        }
+      },
+      "Fody/1.29.1-beta3": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -5004,6 +5061,17 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/1.50.2-beta2": {
+        "dependencies": {
+          "Fody": "(, )"
+        },
+        "compile": {
+          "Lib/dotnet/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "Lib/dotnet/PropertyChanged.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -6390,6 +6458,12 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "Fielder.Fody/1.0.7": {
+        "dependencies": {
+          "Fody": "(, )"
+        }
+      },
+      "Fody/1.29.1-beta3": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -6615,6 +6689,17 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/1.50.2-beta2": {
+        "dependencies": {
+          "Fody": "(, )"
+        },
+        "compile": {
+          "Lib/dotnet/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "Lib/dotnet/PropertyChanged.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -7987,6 +8072,12 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "Fielder.Fody/1.0.7": {
+        "dependencies": {
+          "Fody": "(, )"
+        }
+      },
+      "Fody/1.29.1-beta3": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -8231,6 +8322,17 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/1.50.2-beta2": {
+        "dependencies": {
+          "Fody": "(, )"
+        },
+        "compile": {
+          "Lib/dotnet/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "Lib/dotnet/PropertyChanged.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -9617,6 +9719,12 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "Fielder.Fody/1.0.7": {
+        "dependencies": {
+          "Fody": "(, )"
+        }
+      },
+      "Fody/1.29.1-beta3": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -9842,6 +9950,17 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/1.50.2-beta2": {
+        "dependencies": {
+          "Fody": "(, )"
+        },
+        "compile": {
+          "Lib/dotnet/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "Lib/dotnet/PropertyChanged.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -11215,6 +11334,43 @@
     }
   },
   "libraries": {
+    "Fielder.Fody/1.0.7": {
+      "sha512": "LmmMLbHP4SHpN7P7PXHeOZ7ZhSogMCSWqLeh0+J4MLMN0Pjr82krxG4hTQN3nBPz0xSb4lYPbJ6s3lVHHAKepg==",
+      "type": "Package",
+      "files": [
+        "_rels/.rels",
+        "Fielder.nuspec",
+        "Fielder.Fody.dll",
+        "build/dotnet/Fielder.Fody.targets",
+        "Content/FodyWeavers.xml.install.xdt",
+        "Content/FodyWeavers.xml.uninstall.xdt",
+        "package/services/metadata/core-properties/facad22980a14f4dbb0f465044f3bbf6.psmdcp",
+        "[Content_Types].xml"
+      ]
+    },
+    "Fody/1.29.1-beta3": {
+      "sha512": "Fh5ga9c9crtkQCFIDr/myV3ejDDYCXo+7GmssW8MCKGDmh25WRKOEcfSOvcIh2XNXE+CYWO0Dfcij1X1UwQMCA==",
+      "type": "Package",
+      "files": [
+        "_rels/.rels",
+        "Fody.nuspec",
+        "Fody.dll",
+        "Fody.pdb",
+        "FodyCommon.dll",
+        "FodyCommon.pdb",
+        "FodyIsolated.dll",
+        "FodyIsolated.pdb",
+        "Mono.Cecil.dll",
+        "Mono.Cecil.Mdb.dll",
+        "Mono.Cecil.Pdb.dll",
+        "Mono.Cecil.Rocks.dll",
+        "build/dotnet/Fody.targets",
+        "build/portable-net+sl+win+wpa+wp/Fody.targets",
+        "Content/FodyWeavers.xml",
+        "package/services/metadata/core-properties/840421eb7ad148bf8fadf88ff369bef8.psmdcp",
+        "[Content_Types].xml"
+      ]
+    },
     "Microsoft.CSharp/4.0.0": {
       "sha512": "oWqeKUxHXdK6dL2CFjgMcaBISbkk+AqEg+yvJHE4DElNzS4QaTsCflgkkqZwVlWby1Dg9zo9n+iCAMFefFdJ/A==",
       "type": "Package",
@@ -11865,6 +12021,26 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "package/services/metadata/core-properties/1d4eb9d0228b48b88d2df3822fba2d86.psmdcp",
+        "[Content_Types].xml"
+      ]
+    },
+    "PropertyChanged.Fody/1.50.2-beta2": {
+      "sha512": "bGY0jim/7P5Sz/btdOo9H8mDn3j1sWlQV/sMC1mY8eM3FojyCPpvh7j80EDTd2NArM3Po5bHxJ9xhJHauYA5HQ==",
+      "type": "Package",
+      "files": [
+        "_rels/.rels",
+        "PropertyChanged.Fody.nuspec",
+        "PropertyChanged.Fody.dll",
+        "PropertyChanged.Fody.pdb",
+        "build/dotnet/PropertyChanged.Fody.targets",
+        "Content/FodyWeavers.xml.install.xdt",
+        "Content/FodyWeavers.xml.uninstall.xdt",
+        "Lib/dotnet/PropertyChanged.dll",
+        "Lib/dotnet/PropertyChanged.xml",
+        "Lib/portable-net4+sl4+wp8+win8+wpa81+MonoAndroid16+MonoTouch40/PropertyChanged.dll",
+        "Lib/portable-net4+sl4+wp8+win8+wpa81+MonoAndroid16+MonoTouch40/PropertyChanged.xml",
+        "Tools/install.ps1",
+        "package/services/metadata/core-properties/f48ac83a12c640589df66278ccf6f291.psmdcp",
         "[Content_Types].xml"
       ]
     },
@@ -14566,7 +14742,10 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0"
+      "Fielder.Fody >= 1.0.7",
+      "Fody >= 1.29.1-beta3",
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
+      "PropertyChanged.Fody >= 1.50.2-beta2"
     ],
     "UAP,Version=v10.0": []
   }
