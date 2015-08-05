@@ -162,7 +162,7 @@ The above might seem complex but in reality you just need to remember two things
 
 1. Manually add a FodyWeavers.xml when you install Fody
 2. Manually add a weavers name to FodyWeavers.xml when you install it. 
-3. 
+
 
 ## But cant you make it simpler
 
