@@ -1,4 +1,4 @@
-This is walk through the complexity in using Fody inside a Windows Universal project. The approach used can be applied to any project that uses the new project.json approach. 
+This is walk through of the complexity in using Fody inside a Windows Universal project. The approach used can be applied to any project that uses the new project.json approach. 
 
 
 ## The Solution
@@ -13,7 +13,7 @@ A project that does not use Fody and implement `INotifyPropertyChanged` manually
 
 ### AppWithFody
 
-A "finished" project that does already utilizes use Fody, and the weavers PropertyChanged and Fielder, to simplify the PersonViewModel.
+A "finished" project that does already utilizes Fody, and the weavers PropertyChanged and Fielder, to simplify the PersonViewModel.
 
 
 ## Upgrading AppWithoutFody
