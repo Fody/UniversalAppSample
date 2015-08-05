@@ -3,12 +3,12 @@ This is walk through of the complexity in using Fody inside a Windows Universal 
 
 ## The Solution
 
-This repository contains two projects. 
+This repository contains a solution with two projects. 
 
 
 ### AppWithoutFody
 
-A project that does not use Fody and implement `INotifyPropertyChanged` manually.
+A project that does not use Fody and implement s`INotifyPropertyChanged` manually.
 
 
 ### AppWithFody
@@ -85,6 +85,7 @@ eg <Weavers><PropertyChanged/></Weavers>. See https://github.com/Fody/Fody/wiki/
 
 This is because while the XDT and install.ps1 was deprecated the [import msbuild targets feature](https://docs.nuget.org/create/creating-and-publishing-a-package#import-msbuild-targets-and-props-files-into-project) still works. So for project.json projects a fody weaver can plug into the msbuild pipeline and ensure that weaving has occurred.   
 
+Now add `<PropertyChanged/>` to fix the error
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>
