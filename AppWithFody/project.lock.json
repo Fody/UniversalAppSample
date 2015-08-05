@@ -8,7 +8,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1-beta3": {},
+      "Fody/1.29.1": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -207,9 +207,9 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "PropertyChanged.Fody/1.50.2-beta2": {
+      "PropertyChanged.Fody/1.50.2": {
         "dependencies": {
-          "Fody": "(, )"
+          "Fody": "[1.29.1, )"
         },
         "compile": {
           "Lib/dotnet/PropertyChanged.dll": {}
@@ -1560,7 +1560,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1-beta3": {},
+      "Fody/1.29.1": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -1802,9 +1802,9 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "PropertyChanged.Fody/1.50.2-beta2": {
+      "PropertyChanged.Fody/1.50.2": {
         "dependencies": {
-          "Fody": "(, )"
+          "Fody": "[1.29.1, )"
         },
         "compile": {
           "Lib/dotnet/PropertyChanged.dll": {}
@@ -3202,7 +3202,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1-beta3": {},
+      "Fody/1.29.1": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -3430,9 +3430,9 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "PropertyChanged.Fody/1.50.2-beta2": {
+      "PropertyChanged.Fody/1.50.2": {
         "dependencies": {
-          "Fody": "(, )"
+          "Fody": "[1.29.1, )"
         },
         "compile": {
           "Lib/dotnet/PropertyChanged.dll": {}
@@ -4816,7 +4816,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1-beta3": {},
+      "Fody/1.29.1": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -5063,9 +5063,9 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "PropertyChanged.Fody/1.50.2-beta2": {
+      "PropertyChanged.Fody/1.50.2": {
         "dependencies": {
-          "Fody": "(, )"
+          "Fody": "[1.29.1, )"
         },
         "compile": {
           "Lib/dotnet/PropertyChanged.dll": {}
@@ -6463,7 +6463,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1-beta3": {},
+      "Fody/1.29.1": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -6691,9 +6691,9 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "PropertyChanged.Fody/1.50.2-beta2": {
+      "PropertyChanged.Fody/1.50.2": {
         "dependencies": {
-          "Fody": "(, )"
+          "Fody": "[1.29.1, )"
         },
         "compile": {
           "Lib/dotnet/PropertyChanged.dll": {}
@@ -8077,7 +8077,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1-beta3": {},
+      "Fody/1.29.1": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -8324,9 +8324,9 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "PropertyChanged.Fody/1.50.2-beta2": {
+      "PropertyChanged.Fody/1.50.2": {
         "dependencies": {
-          "Fody": "(, )"
+          "Fody": "[1.29.1, )"
         },
         "compile": {
           "Lib/dotnet/PropertyChanged.dll": {}
@@ -9724,7 +9724,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1-beta3": {},
+      "Fody/1.29.1": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -9952,9 +9952,9 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "PropertyChanged.Fody/1.50.2-beta2": {
+      "PropertyChanged.Fody/1.50.2": {
         "dependencies": {
-          "Fody": "(, )"
+          "Fody": "[1.29.1, )"
         },
         "compile": {
           "Lib/dotnet/PropertyChanged.dll": {}
@@ -11348,8 +11348,8 @@
         "[Content_Types].xml"
       ]
     },
-    "Fody/1.29.1-beta3": {
-      "sha512": "Fh5ga9c9crtkQCFIDr/myV3ejDDYCXo+7GmssW8MCKGDmh25WRKOEcfSOvcIh2XNXE+CYWO0Dfcij1X1UwQMCA==",
+    "Fody/1.29.1": {
+      "sha512": "JILN45ohySjzSRevsdCyxab682EQk/XgDXADM3t9s+GlSaqAQgrst1UqVV45/ZvA9ofqD3J/Su9TMl151y/cMg==",
       "type": "Package",
       "files": [
         "_rels/.rels",
@@ -11367,7 +11367,7 @@
         "build/dotnet/Fody.targets",
         "build/portable-net+sl+win+wpa+wp/Fody.targets",
         "Content/FodyWeavers.xml",
-        "package/services/metadata/core-properties/840421eb7ad148bf8fadf88ff369bef8.psmdcp",
+        "package/services/metadata/core-properties/4497016a373a4a08a2e877e14de15a4e.psmdcp",
         "[Content_Types].xml"
       ]
     },
@@ -12024,8 +12024,8 @@
         "[Content_Types].xml"
       ]
     },
-    "PropertyChanged.Fody/1.50.2-beta2": {
-      "sha512": "bGY0jim/7P5Sz/btdOo9H8mDn3j1sWlQV/sMC1mY8eM3FojyCPpvh7j80EDTd2NArM3Po5bHxJ9xhJHauYA5HQ==",
+    "PropertyChanged.Fody/1.50.2": {
+      "sha512": "tWYbGfhYnIfTEvc8dmFztx0f3TuGAZecm0GsV7FWh0Z1GApSJBOIn0qsdcx2LMpZ2ZFZoOKdf7JWF7fkRTGJdw==",
       "type": "Package",
       "files": [
         "_rels/.rels",
@@ -12040,7 +12040,7 @@
         "Lib/portable-net4+sl4+wp8+win8+wpa81+MonoAndroid16+MonoTouch40/PropertyChanged.dll",
         "Lib/portable-net4+sl4+wp8+win8+wpa81+MonoAndroid16+MonoTouch40/PropertyChanged.xml",
         "Tools/install.ps1",
-        "package/services/metadata/core-properties/f48ac83a12c640589df66278ccf6f291.psmdcp",
+        "package/services/metadata/core-properties/a342515a0f0a401eb530a9e24d12c995.psmdcp",
         "[Content_Types].xml"
       ]
     },
@@ -14743,9 +14743,9 @@
   "projectFileDependencyGroups": {
     "": [
       "Fielder.Fody >= 1.0.7",
-      "Fody >= 1.29.1-beta3",
+      "Fody >= 1.29.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
-      "PropertyChanged.Fody >= 1.50.2-beta2"
+      "PropertyChanged.Fody >= 1.50.2"
     ],
     "UAP,Version=v10.0": []
   }
