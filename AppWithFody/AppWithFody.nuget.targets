@@ -5,7 +5,7 @@
   </PropertyGroup>
   <ImportGroup>
     <Import Project="$(NuGetPackageRoot)\Fielder.Fody\1.0.7\build\dotnet\Fielder.Fody.targets" Condition="Exists('$(NuGetPackageRoot)\Fielder.Fody\1.0.7\build\dotnet\Fielder.Fody.targets')" />
-    <Import Project="$(NuGetPackageRoot)\Fody\1.29.1\build\dotnet\Fody.targets" Condition="Exists('$(NuGetPackageRoot)\Fody\1.29.1\build\dotnet\Fody.targets')" />
+    <Import Project="$(NuGetPackageRoot)\Fody\1.29.2\build\dotnet\Fody.targets" Condition="Exists('$(NuGetPackageRoot)\Fody\1.29.2\build\dotnet\Fody.targets')" />
     <Import Project="$(NuGetPackageRoot)\PropertyChanged.Fody\1.50.2\build\dotnet\PropertyChanged.Fody.targets" Condition="Exists('$(NuGetPackageRoot)\PropertyChanged.Fody\1.50.2\build\dotnet\PropertyChanged.Fody.targets')" />
   </ImportGroup>
 </Project>

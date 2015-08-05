@@ -1,7 +1,7 @@
 ﻿{
   "dependencies": {
     "Fielder.Fody": "1.0.7",
-    "Fody": "1.29.1",
+    "Fody": "1.29.2",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
     "PropertyChanged.Fody": "1.50.2"
   },

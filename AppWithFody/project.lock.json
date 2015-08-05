@@ -8,7 +8,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1": {},
+      "Fody/1.29.2": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -1560,7 +1560,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1": {},
+      "Fody/1.29.2": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -3202,7 +3202,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1": {},
+      "Fody/1.29.2": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -4816,7 +4816,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1": {},
+      "Fody/1.29.2": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -6463,7 +6463,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1": {},
+      "Fody/1.29.2": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -8077,7 +8077,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1": {},
+      "Fody/1.29.2": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -9724,7 +9724,7 @@
           "Fody": "(, )"
         }
       },
-      "Fody/1.29.1": {},
+      "Fody/1.29.2": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -11348,8 +11348,8 @@
         "[Content_Types].xml"
       ]
     },
-    "Fody/1.29.1": {
-      "sha512": "JILN45ohySjzSRevsdCyxab682EQk/XgDXADM3t9s+GlSaqAQgrst1UqVV45/ZvA9ofqD3J/Su9TMl151y/cMg==",
+    "Fody/1.29.2": {
+      "sha512": "zC6ZCCtuVrWSbnA/6NTNqXsxV0TbzAmh9C/nICOXhAmskxN+rsUVjNMM6W3sipeoESJJsuO2Az7lpKfZHPIMvA==",
       "type": "Package",
       "files": [
         "_rels/.rels",
@@ -11367,7 +11367,7 @@
         "build/dotnet/Fody.targets",
         "build/portable-net+sl+win+wpa+wp/Fody.targets",
         "Content/FodyWeavers.xml",
-        "package/services/metadata/core-properties/4497016a373a4a08a2e877e14de15a4e.psmdcp",
+        "package/services/metadata/core-properties/6af791a91cd04dc389fe8e3205b43f92.psmdcp",
         "[Content_Types].xml"
       ]
     },
@@ -14743,7 +14743,7 @@
   "projectFileDependencyGroups": {
     "": [
       "Fielder.Fody >= 1.0.7",
-      "Fody >= 1.29.1",
+      "Fody >= 1.29.2",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
       "PropertyChanged.Fody >= 1.50.2"
     ],
