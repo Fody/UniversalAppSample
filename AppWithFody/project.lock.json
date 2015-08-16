@@ -3,7 +3,7 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
-      "Fielder.Fody/1.0.10": {
+      "Fielder.Fody/1.0.11": {
         "dependencies": {
           "Fody": "[1.29.2, )"
         }
@@ -1555,7 +1555,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "Fielder.Fody/1.0.10": {
+      "Fielder.Fody/1.0.11": {
         "dependencies": {
           "Fody": "[1.29.2, )"
         }
@@ -3197,7 +3197,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "Fielder.Fody/1.0.10": {
+      "Fielder.Fody/1.0.11": {
         "dependencies": {
           "Fody": "[1.29.2, )"
         }
@@ -4811,7 +4811,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "Fielder.Fody/1.0.10": {
+      "Fielder.Fody/1.0.11": {
         "dependencies": {
           "Fody": "[1.29.2, )"
         }
@@ -6458,7 +6458,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "Fielder.Fody/1.0.10": {
+      "Fielder.Fody/1.0.11": {
         "dependencies": {
           "Fody": "[1.29.2, )"
         }
@@ -8072,7 +8072,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "Fielder.Fody/1.0.10": {
+      "Fielder.Fody/1.0.11": {
         "dependencies": {
           "Fody": "[1.29.2, )"
         }
@@ -9719,7 +9719,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "Fielder.Fody/1.0.10": {
+      "Fielder.Fody/1.0.11": {
         "dependencies": {
           "Fody": "[1.29.2, )"
         }
@@ -11334,18 +11334,18 @@
     }
   },
   "libraries": {
-    "Fielder.Fody/1.0.10": {
-      "sha512": "q78trwnYiiY7mX7MZOw9wpB8eHr0ukX55WQ1gRcZ5K2gyUkn1y/uVxAA4lFRq9MCVrwQqE+tuoVmbSmu/EWZ3w==",
+    "Fielder.Fody/1.0.11": {
+      "sha512": "QqZQ5IitUK5Hs1wXHxB5SXO6AOaE67FO0+aGHUQVcEAtRdd1CWMOtKgNb42hTzHiATyy/BTj5zy4tdkJcKWxOQ==",
       "type": "Package",
       "files": [
         "_rels/.rels",
-        "Fielder.nuspec",
-        "Fielder.Fody.dll",
+        "Fielder.Fody.nuspec",
         "build/dotnet/Fielder.Fody.targets",
         "Content/Fody_ToBeDeleted.txt",
         "Tools/install.ps1",
         "Tools/uninstall.ps1",
-        "package/services/metadata/core-properties/a59fa7da254b4ba598be6c2409e5df88.psmdcp",
+        "Fielder.Fody.dll",
+        "package/services/metadata/core-properties/6db6876f915c451d929542c70ddc31b1.psmdcp",
         "[Content_Types].xml"
       ]
     },
@@ -14742,7 +14742,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Fielder.Fody >= 1.0.10",
+      "Fielder.Fody >= 1.0.11",
       "Fody >= 1.29.2",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
       "PropertyChanged.Fody >= 1.50.3"
