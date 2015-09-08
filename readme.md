@@ -167,4 +167,4 @@ The above might seem complex but in reality you just need to remember two things
 
 ## But cant you make it simpler
 
-Unfortunately without any extension points exposed by Nuget it is not possible to simplify this process. Feel free to ask the nuget guys to add either xdt or isntall.ps1 suppor to project.json projects. 
+Unfortunately without any extension points exposed by Nuget it is not possible to simplify this process. Feel free to ask the nuget guys to add either xdt or install.ps1 support to project.json projects. 
