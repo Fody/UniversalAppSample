@@ -1,5 +1,6 @@
 This is walk through of the complexity in using Fody inside a Windows Universal project. The approach used can be applied to any project that uses the new project.json approach. 
 
+[![NuGet Status](https://img.shields.io/gitter/room/fody/fody.svg?style=flat)](https://gitter.im/Fody/Fody)
 
 ## The Solution
 
