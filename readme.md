@@ -1,4 +1,4 @@
-[![Chat on Gitter](https://img.shields.io/gitter/room/fody/fody.svg?style=flat)](https://gitter.im/Fody)
+[![Chat on Gitter](https://img.shields.io/gitter/room/fody/fody.svg?style=flat)](https://gitter.im/Fody/Fody)
 
 This is walk through of the complexity in using Fody inside a Windows Universal project. The approach used can be applied to any project that uses the new project.json approach. 
 
